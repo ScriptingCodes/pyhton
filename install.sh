@@ -7,7 +7,7 @@
 # numpy + scipy
 #########################################
 
-# installing python 2.7.3
+# installing python 3.9.7
 mkdir -p ~/local
 wget https://www.python.org/ftp/python/3.9.7/Python-3.9.7.tgz
 tar xvzf Python-3.9.7.tgz
@@ -15,7 +15,7 @@ cd Python-3.9.7
 ./configure
 make
 make altinstall prefix=~/local  # specify local installation directory
-ln -s ~/local/bin/python2.7 ~/local/bin/python
+ln -s ~/local/bin/python3.9 ~/local/bin/python
 cd ..
 
 # install setuptools and pip for package management
